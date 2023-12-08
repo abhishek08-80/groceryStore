@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Grocery Shopping</title>
+    <link rel="stylesheet" href="./assets/css/homePage.css">
+    <link rel="stylesheet" href="./assets/css/cart.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/all.css">
+</head>
+
+<body class="home">
+    <header>
+        <section class="navbar">
+            <div class="navbarLogo">
+                <a href="homePage.html"><img src="./assets/images/logo.png"></a>
+            </div>
+            <div class="navbarMenu">
+                <a href="homePage.html">Home</a>
+                <a href="selectaddress.html">Address</a>
+                <a href="cart.html"> Cart</a>
+                <a class="logout" href="login.html">Log Out</a>
+            </div>
+        </section>
+    </header>
+
+    <section>
+        <div class="shopping-cart">
+            <div class="title">
+                My Shopping Bag
+            </div>
+            <div id="cartNo"> </div>
+            <a href="invoice.html"><button id="checkout" style="margin-top: 80px; text-decoration: none !important;"
+                    onclick="checkout()"> Checkout</a></button>
+            <button id="clearCart" onclick="deleteCart()"> Clear Cart</button>
+    </section>
+
+    <section class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h4>All Rights Reserved 2023© || </h4>
+                    <h3>An initiative by Ditstek Team</h3>
+                </div>
+                <div class="col-sm-3 footerSocial">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./assets/js/cart.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

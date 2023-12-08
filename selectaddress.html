@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Grocery Shopping</title>
+    <link rel="stylesheet" href="./assets/css/homePage.css">
+    <link rel="stylesheet" href="./assets/css/selectAddress.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/all.css">
+</head>
+
+<body class="home">
+    <header>
+        <section class="navbar">
+            <div class="navbarLogo">
+                <a href="homePage.html"><img src="./assets/images/logo.png"></a>
+            </div>
+            <div class="navbarMenu">
+                <a href="homePage.html">Home</a>
+                <a href="selectaddress.html">Address</a>
+                <a href="cart.html"> Cart</a>
+                <a class="logout" href="login.html">Log Out</a>
+            </div>
+        </section>
+    </header>
+
+    <section>
+        <h2 style="text-align: center; padding-top: 60px;">Select Address</h2>
+        <div class="selectAddress">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    house no: 8<br> sector 2<br>Panchkula<br>+91 23456789876
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                    house no: 444<br> sector 41-A<br>Chandigarh<br>+91 3456785467
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                    house no: 444<br> sector 41-A<br>Chandigarh<br>+91 324567898765
+                </label>
+            </div>
+        </div>
+        <div style="display: flex; justify-content: center;">
+            <a href="newAddress.html">
+                <button type="button" class="addressBtn btn btn-success">Add new Address</button></a>
+            <a href="invoice.html">
+                <button type="button" class="addressBtn btn btn-success">Payment</button></a>
+        </div>
+    </section>
+
+
+
+    <section class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h4>All Rights Reserved 2023© || </h4>
+                    <h3>An initiative by Ditstek Team</h3>
+                </div>
+                <div class="col-sm-3 footerSocial">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./assets/js/cart.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

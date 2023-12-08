@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Grocery Shopping</title>
+    <link rel="stylesheet" href="./assets/css/loginSignup.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+</head>
+
+<body>
+    <section class="signup">
+        <div class="container-fluid h-custom">
+            <div class="row d-flex justify-content-center align-items-center">
+
+                <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+                    <form class="box2" onsubmit="return validation()">
+                        <h2 class="text-center">Create Account</h2>
+
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="form3Example3">User Name</label>
+                            <input type="text" class="form-control form-control-lg" id="username"
+                                placeholder="Enter name" />
+                            <p id="usererror"></p>
+                        </div>
+
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="form3Example3">Email address</label>
+                            <input type="email" id="email" class="form-control form-control-lg"
+                                placeholder="Enter email address" />
+                            <p id="emailerror"></p>
+                        </div>
+
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="form3Example4">Password</label>
+                            <input type="password" id="password" class="form-control form-control-lg"
+                                placeholder="Enter password" />
+                            <p id="passworderror"></p>
+                        </div>
+
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="form3Example4">Confirm Password</label>
+                            <input type="password" id="confirmpassword" class="form-control form-control-lg"
+                                placeholder="Enter password" />
+                            <p id="confirmpassworderror"></p>
+                        </div>
+
+                        <div class="d-flex justify-content-between abc align-items-center">
+                            <div class="text-center text-lg-start mt-4 pt-2">
+                                <button type="button" class="btn btn-success " id="signupBtn"
+                                    onclick="validation()">Register</button>
+                            </div>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="./assets/js/signup.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

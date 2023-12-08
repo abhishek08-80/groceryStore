@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Grocery Shopping</title>
+    <link rel="stylesheet" href="./assets/css/homePage.css">
+    <link rel="stylesheet" href="./assets/css/details.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/all.css">
+</head>
+
+<body class="home">
+    <header>
+        <section class="navbar">
+            <div class="navbarLogo">
+                <a href="homePage.html"><img src="./assets/images/logo.png"></a>
+            </div>
+            <div class="navbarMenu">
+                <a href="homePage.html">Home</a>
+                <a href="selectaddress.html">Address</a>
+                <a href="cart.html"> Cart</a>
+                <a class="logout" href="login.html">Log Out</a>
+            </div>
+        </section>
+    </header>
+
+    <section>
+        <div class="container-fluid">
+            <div class="box">
+                <div class="row">
+                    <div class="col-sm-8 offset-sm-2 homeMainText text-center">
+                        <h2 class="text-center">India's No.1 online </h2>
+                        <h3>Grocery Store</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2 style="text-align:center; margin-top: 80px;">Product Card</h2>
+
+        <div class="card">
+            <img src="#" id="imageProduct" style="width:10%">
+            <h2 id="productName"></h2>
+            <p class="price" id="price"></p>
+            <p id="description"></p>
+            <p><button onclick="addCart()">Add to Cart</button></p>
+            <p><a href="selectaddress.html"><button>Checkout</button></a></p>
+            <p><a href="cart.html"><button>Go to your Cart</button></a></p>
+        </div>
+
+    </section>
+
+    <!-- footer  -->
+    <section class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h4>All Rights Reserved 2023© || </h4>
+                    <h3>An initiative by Ditstek Team</h3>
+                </div>
+                <div class="col-sm-3 footerSocial">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./assets/js/detail.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Grocery Shopping</title>
+  <link rel="stylesheet" href="./assets/css/homePage.css">
+  <link rel="stylesheet" href="./assets/css/newAddress.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/all.css">
+</head>
+
+<!-- navbar -->
+
+<body class="home">
+  <header>
+    <section class="navbar">
+      <div class="navbarLogo">
+        <a href="homePage.html"><img src="./assets/images/logo.png"></a>
+      </div>
+      <div class="navbarMenu">
+        <a href="homePage.html">Home</a>
+        <a href="selectaddress.html">Address</a>
+        <a href="cart.html"> Cart</a>
+        <a class="logout" href="login.html">Log Out</a>
+      </div>
+    </section>
+  </header>
+
+  <!-- address form  -->
+  <div class="container my-5 py-5">
+
+    <!--Section: Design Block-->
+    <section>
+
+      <div class="row addressForm">
+        <div class="col-md-8 mb-4 innerbox">
+          <div class="card mb-4">
+            <div class="card-header py-3">
+              <h5 class="mb-0 text-font text-uppercase">Delivery address</h5>
+            </div>
+            <div class="card-body">
+              <form>
+
+                <div class="row mb-4">
+                  <div class="col">
+                    <div class="form-outline">
+                      <input required type="text" id="form11Example1" class="form-control" />
+                      <label class="form-label" for="form11Example1">Full Name</label>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="form-outline">
+                      <input required type="text" id="form11Example2" class="form-control" />
+                      <label class="form-label" for="form11Example2">Phone number</label>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Text input -->
+                <div class="form-outline mb-4">
+                  <input required type="text" id="form11Example3" class="form-control" />
+                  <label class="form-label" for="form11Example3">Pincode</label>
+                </div>
+
+                <!-- Text input -->
+                <div class="form-outline mb-4">
+                  <input required type="text" id="form11Example4" class="form-control" />
+                  <label class="form-label" for="form11Example4">Street</label>
+                </div>
+
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <input required type="email" id="form11Example5" class="form-control" />
+                  <label class="form-label" for="form11Example5">City</label>
+                </div>
+
+                <!-- Number input -->
+                <div class="form-outline mb-4">
+                  <input required type="number" id="form11Example6" class="form-control" />
+                  <label class="form-label" for="form11Example6">State</label>
+                </div>
+
+                <!-- Message input -->
+                <div class="form-outline mb-4">
+                  <textarea class="form-control" id="form11Example7" rows="3"></textarea>
+                  <label class="form-label" for="form11Example7">Additional information</label>
+                </div>
+
+                <div class="text-center">
+                  <button type="button" class="btn btn-success col-md-6 addressbutton"><a href="selectaddress.html">Save
+                      Address</a></button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!--Section: Design Block-->
+
+  </div>
+
+  <footer>
+    <section class="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-8">
+            <h4>All Rights Reserved 2023© || </h4>
+            <h3>An initiative by Ditstek Team</h3>
+          </div>
+          <div class="col-sm-3 footerSocial">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <script src="./assets/js/homePage.js"></script>
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

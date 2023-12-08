@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Grocery Shopping</title>
+    <link rel="stylesheet" href="./assets/css/homePage.css">
+    <link rel="stylesheet" href="./assets/css/invoice.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/all.css">
+</head>
+
+<body class="home">
+    <header>
+        <section class="navbar">
+            <div class="navbarLogo">
+                <a href="homePage.html"><img src="./assets/images/logo.png"></a>
+            </div>
+            <div class="navbarMenu">
+                <a href="homePage.html">Home</a>
+                <a href="selectaddress.html">Address</a>
+                <a href="cart.html"> Cart</a>
+                <a class="logout" href="login.html">Log Out</a>
+            </div>
+        </section>
+    </header>
+
+    <section>
+        <div class="container-fluid">
+            <div class="box">
+                <div class="row">
+                    <div class="col-sm-8 offset-sm-2 homeMainText text-center">
+                        <h2 class="text-center">India's No.1 online </h2>
+                        <h3>Grocery Store</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+
+        <div class="invoice-box">
+            <table>
+                <tr class="top">
+                    <td colspan="2">
+                        <table>
+                            <tr>
+                                <td>
+                                    Invoice No: 124</p><br />
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr class="heading">
+                    <td>Item</td>
+
+                    <td>Price</td>
+                </tr>
+                <tr id="cartDetail"> </tr>
+
+                <tr class="total">
+                    <td></td>
+
+                    <td>Total: $<p id="total"> </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h4>All Rights Reserved 2023© || </h4>
+                    <h3>An initiative by Ditstek Team</h3>
+                </div>
+                <div class="col-sm-3 footerSocial">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./assets/js/invoice.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+
+body {
+    background-image: url("../images/pexels-pok-rie-1234835.jpg");
+    background-position: fixed;
+    background-repeat: no-repeat;
+}
+
+.addressForm {
+    justify-content: center;
+}
+.addressbutton a{
+    color: white !important;
+}
